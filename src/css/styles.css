@@ -1,18 +1,137 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin: 10px auto 10px 10px;
+  gap: 10px
+}
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+/* TASK 1 TIMER */
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+}
+
+.task-section {
+  border: 1px solid #2e2f42;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  width: 30%;
+  padding: 15px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.input-section input {
+  width: 65%;
+  height: 25px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.input-section button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #989898;
+  border-radius: 8px;
+  padding: 8px 16px;
+  min-width: 75px;
+  height: 40px;
+  background-color: #cfcfcf;
+}
+
+.timer {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.value {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  text-transform: uppercase;
+}
+
+/* TASK 2 SNACKBAR */
+
+.form {
+  flex-direction: column;
+  width: 360px;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.form button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  height: 30px;
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* .form input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+} */
+
+/* .fieldset-div {
+  width: 360px;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin: 0;
+  padding: 8px 48px 14px 48px;
+}
+
+.fieldset-label {
+  display: inline-flex;
+  width: 104px;
+  height: 32px;
+}
+
+.fieldset-input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+} */
